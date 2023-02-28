@@ -11,7 +11,7 @@ namespace Business.ValidationRules.FluentCalidation
     {
         public CarValidatior()
         {
-            RuleFor(c => c.Id).NotEmpty();
+            
             RuleFor(c => c.ModelYear).NotEmpty();
             RuleFor(c => c.DailyPrice).NotEmpty();
             RuleFor(c => c.BrandId).NotEmpty();

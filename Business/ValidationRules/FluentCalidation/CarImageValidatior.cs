@@ -10,7 +10,7 @@ namespace Business.ValidationRules.FluentCalidation
     {
         public CarImageValidatior()
         {
-            RuleFor(c => c.Id).NotEmpty();
+            
             RuleFor(c => c.CarId).NotEmpty();
             RuleFor(c => c.ImagePath).NotEmpty();
         }

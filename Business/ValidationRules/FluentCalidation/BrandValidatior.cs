@@ -10,7 +10,7 @@ namespace Business.ValidationRules.FluentCalidation
     {
         public BrandValidatior()
         {
-            RuleFor(b => b.Id).NotEmpty();
+            
             RuleFor(b => b.Name).NotEmpty();
             RuleFor(b => b.Name).MinimumLength(2);
         }
